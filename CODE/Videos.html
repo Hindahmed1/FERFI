@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #000000;
+}
+
+
+.card-title{
+	width: 100%;
+}
+
+.card-title h3{
+	color: #c5560d;;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 500;
+}
+
+
+
+.card-body{
+	background-color: #121212;
+	padding: 10px 0px;
+	border-radius: 5px;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+.nevbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+	color: #000;
+}
+.header{
+	background-color:  #0A0A0A;
+}
+
+nav{
+flex: 1 ;
+text-align: left;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration:none ;
+    color:#c5560d;;
+}
+p{
+    color:#c5560d;;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+	
+}
+.logo img{
+position: absolute;
+
+margin-left: 1150px;
+
+height: 40px;
+width: 50px;
+
+}
+
+.c img{
+	
+	width: 150px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-top: 50px;
+	margin-right: 500px;
+	
+	transform: translate(-50%,-50%);
+}
+.clear{
+	clear: both;
+}
+
+.card-body-button{
+	margin-left: 430px;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.card-body-button button{
+	background-color: #c5560d;;
+	color: #000;
+	border: none;
+	padding: 10px 25px;
+	font-size: 15px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	
+	
+
+	width: 200px;
+	margin-top: 270px;
+	margin-left: 50px;
+
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
+	
+}
+.card-body-button  button:hover {
+	background:linear-gradient(to bottom, #c5560d, #b46f2f 100%);
+	background-color:blanchedalmond;
+}
+.card-body-button button:active {
+	position:relative;
+	top:4px;
+}
+.card-body-button{
+	align-items: center;
+}
+
+
+
+
+.card-body-button{
+	margin-left: 355px;
+}
+
+
+</style>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale:1.0">
+	<title>Login or CreateProfile</title>
+
+	
+</head>
+<body>
+	
+	   
+    <div class="header">
+
+
+		
+        <div class="container">
+        <div class="nevbar">
+			<div class="logo"><a href="#"> <img src="logo.jpg"></a>
+			</div>
+            <nav>
+                <ul>
+                   
+                        <li><a href="index.php" >Home</a> </li>
+                        <li><a href="Start.php" >Start</a> </li>
+                        <li><a href="Persons.php" >Persons</a> </li>
+                        <li><a href="Videos.html" >Videos</a> </li>
+                        
+         
+            
+					
+    
+                </ul>
+            </nav>
+          
+        </div>
+        </div>
+        
+    </div>
+	<div class="main">
+		<div class="card">
+
+
+			<div class="card-title">
+				<h3><i class="fa fa-user-circle-o" aria-hidden="true"></i> End video <span id="action_title"></span></h3>
+			</div>
+
+			
+			<div class="card-body">
+				
+				<div class="card-body-top">
+					<div class="c"><a href="#"> <img src="check.png"></a>
+					<div id="pointer-btn"></div>
+				</div>
+			
+
+			
+			<form>
+	
+
+	
+				<div class="card-body-button">
+					
+					<button type="button">Delete the video</button>
+					<button type="button"> Save the video</button>
+			
+				</div>
+			</form>
+		
+		
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
